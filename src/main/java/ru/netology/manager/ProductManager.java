@@ -45,7 +45,6 @@ public class ProductManager {
                 return true;
             }
             return false;
-
         }
         return false;
     }
