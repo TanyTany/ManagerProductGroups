@@ -4,10 +4,7 @@
 name: Java CI with Maven
 
 on:
-  push:
-    branches: [ ProductManager ]
-  pull_request:
-    branches: [ ProductManager ]
+  [push, pull_request]
 
 jobs:
   build:
